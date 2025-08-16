@@ -1,0 +1,49 @@
+{
+  "openapi": "3.0.4",
+  "info": {
+    "title": "AdvertisingPlatforms",
+    "version": "1.0"
+  },
+  "paths": {
+    "/{location}": {
+      "get": {
+        "tags": [
+          "AdvertisingPlatforms"
+        ],
+        "summary": "Поиск рекламных площадок для заданной локации",
+        "operationId": "GetPlatformsByLocation",
+        "parameters": [
+          {
+            "name": "location",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "minLength": 1,
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/upload": {
+      "post": {
+        "tags": [
+          "AdvertisingPlatforms"
+        ],
+        "summary": "Загрузка рекламных площадок из файла",
+        "operationId": "UploadPlatforms",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": { }
+}
