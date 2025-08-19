@@ -27,3 +27,4 @@ C:\Users\artem\OneDrive\Документы\GitHub\AdvertisingPlatforms\src\obj\R
 C:\Users\artem\OneDrive\Документы\GitHub\AdvertisingPlatforms\src\obj\Release\net8.0\AdvertisingPlatforms.pdb
 C:\Users\artem\OneDrive\Документы\GitHub\AdvertisingPlatforms\src\obj\Release\net8.0\AdvertisingPlatforms.genruntimeconfig.cache
 C:\Users\artem\OneDrive\Документы\GitHub\AdvertisingPlatforms\src\obj\Release\net8.0\ref\AdvertisingPlatforms.dll
+C:\Users\artem\OneDrive\Документы\GitHub\AdvertisingPlatforms\src\obj\Release\net8.0\AdvertisingPlatforms.sourcelink.json

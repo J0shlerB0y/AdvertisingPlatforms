@@ -1,14 +1,20 @@
-﻿using AdvertisingPlatforms.Enities;
+﻿using System.Text;
 
 namespace AdvertisingPlatforms.Services
 {
+    public interface IAdvertisingPlatformService
+    {
+        Task LoadPlatformsAsync(Stream stream);
+        IEnumerable<string> FindPlatformsForLocation(string locationPath);
+    }
+
     public class AdvertisingPlatformService : IAdvertisingPlatformService
     {
-        private TreeNode root = new TreeNode();
+        private Dictionary<string, HashSet<string>> _platformsByLocation = new();
 
         public async Task LoadPlatformsAsync(Stream stream)
         {
-            var newRoot = new TreeNode();
+            var newPlatformsByLocation = new Dictionary<string, HashSet<string>>();
 
             using (var reader = new StreamReader(stream))
             {
@@ -21,56 +27,58 @@ namespace AdvertisingPlatforms.Services
                     if (parts.Length != 2) continue;
 
                     string platformName = parts[0];
-
                     string[] locations = parts[1].Split(',', StringSplitOptions.RemoveEmptyEntries | StringSplitOptions.TrimEntries);
 
                     foreach (var location in locations)
                     {
-                        AddPlatformToTree(newRoot, platformName, location);
+                        AddPlatformToDictionary(newPlatformsByLocation, platformName, location);
                     }
                 }
             }
-            Interlocked.Exchange(ref root, newRoot);
+            BuildDictionary(newPlatformsByLocation);
+            Interlocked.Exchange(ref _platformsByLocation, newPlatformsByLocation);
         }
 
-        private void AddPlatformToTree(TreeNode root, string platformName, string locationPath)
+        private void AddPlatformToDictionary(Dictionary<string, HashSet<string>> platformsDict, string platformName, string locationPath)
         {
-            var currentNode = root;
-            var segments = locationPath.Split('/', StringSplitOptions.RemoveEmptyEntries | StringSplitOptions.TrimEntries);
-
-            foreach (var segment in segments)
+            if (!platformsDict.TryGetValue(locationPath, out var platformsSet))
             {
-                if (!currentNode.Children.ContainsKey(segment))
-                {
-                    currentNode.Children[segment] = new TreeNode();
-                }
-                currentNode = currentNode.Children[segment];
+                platformsSet = new HashSet<string>();
+                platformsDict[locationPath] = platformsSet;
             }
 
-            currentNode.Platforms.Add(platformName);
+            platformsSet.Add(platformName);
+        }
+
+        private void BuildDictionary(Dictionary<string, HashSet<string>> platformsDict)
+        {
+            foreach (KeyValuePair< string, HashSet<string>> adder in platformsDict)
+            {
+                foreach (KeyValuePair<string, HashSet<string>> added in platformsDict)
+                {
+                    if (added.Key.StartsWith(adder.Key) && added.Key != adder.Key)
+                    {
+                        added.Value.UnionWith(adder.Value);
+                    }
+                }
+            }
         }
 
         public IEnumerable<string> FindPlatformsForLocation(string locationPath)
         {
-            var resultPlatforms = new HashSet<string>();
-            var segments = locationPath.Split('/', StringSplitOptions.RemoveEmptyEntries | StringSplitOptions.TrimEntries);
+            var trimmedPath = locationPath.Trim();
 
-            TreeNode currentNode = root;
-
-            foreach (var segment in segments)
+            if (string.IsNullOrEmpty(trimmedPath))
             {
-                if (!currentNode.Children.TryGetValue(segment.Trim(), out var childNode))
-                {
-                    break;
-                }
-                currentNode = childNode;
-                foreach (var platform in currentNode.Platforms)
-                {
-                    resultPlatforms.Add(platform.Trim());
-                }
+                return Enumerable.Empty<string>();
             }
 
-            return resultPlatforms;
+            if (_platformsByLocation.TryGetValue(trimmedPath, out var platforms))
+            {
+                return platforms;
+            }
+
+            return Enumerable.Empty<string>();
         }
     }
 }

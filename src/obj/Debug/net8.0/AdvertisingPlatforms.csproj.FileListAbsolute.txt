@@ -63,3 +63,4 @@ C:\Users\artem\OneDrive\Документы\GitHub\AdvertisingPlatforms\src\obj\D
 C:\Users\artem\OneDrive\Документы\GitHub\AdvertisingPlatforms\src\obj\Debug\net8.0\AdvertisingPlatforms.genruntimeconfig.cache
 C:\Users\artem\OneDrive\Документы\GitHub\AdvertisingPlatforms\src\obj\Debug\net8.0\ref\AdvertisingPlatforms.dll
 C:\Users\artem\OneDrive\Документы\GitHub\AdvertisingPlatforms\src\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\artem\OneDrive\Документы\GitHub\AdvertisingPlatforms\src\obj\Debug\net8.0\AdvertisingPlatforms.sourcelink.json

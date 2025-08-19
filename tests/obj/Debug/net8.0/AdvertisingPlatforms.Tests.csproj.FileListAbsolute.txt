@@ -107,3 +107,4 @@ C:\Users\artem\OneDrive\Документы\GitHub\AdvertisingPlatforms\tests\obj
 C:\Users\artem\OneDrive\Документы\GitHub\AdvertisingPlatforms\tests\obj\Debug\net8.0\AdvertisingPlatforms.Tests.pdb
 C:\Users\artem\OneDrive\Документы\GitHub\AdvertisingPlatforms\tests\obj\Debug\net8.0\AdvertisingPlatforms.Tests.genruntimeconfig.cache
 C:\Users\artem\OneDrive\Документы\GitHub\AdvertisingPlatforms\tests\obj\Debug\net8.0\ref\AdvertisingPlatforms.Tests.dll
+C:\Users\artem\OneDrive\Документы\GitHub\AdvertisingPlatforms\tests\obj\Debug\net8.0\AdvertisingPlatforms.Tests.sourcelink.json

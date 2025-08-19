@@ -3,23 +3,15 @@
   "WorkspaceRootPath": "C:\\Users\\artem\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\AdvertisingPlatforms\\src\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8F7EB7E0-E029-44BB-A3E1-1F1B8B6CD422}|AdvertisingPlatforms.csproj|c:\\users\\artem\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\advertisingplatforms\\src\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F7EB7E0-E029-44BB-A3E1-1F1B8B6CD422}|AdvertisingPlatforms.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F7EB7E0-E029-44BB-A3E1-1F1B8B6CD422}|AdvertisingPlatforms.csproj|c:\\users\\artem\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\advertisingplatforms\\src\\services\\iadvertisingplatformservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F7EB7E0-E029-44BB-A3E1-1F1B8B6CD422}|AdvertisingPlatforms.csproj|solutionrelative:services\\iadvertisingplatformservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F7EB7E0-E029-44BB-A3E1-1F1B8B6CD422}|AdvertisingPlatforms.csproj|c:\\users\\artem\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\advertisingplatforms\\src\\enities\\treenode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F7EB7E0-E029-44BB-A3E1-1F1B8B6CD422}|AdvertisingPlatforms.csproj|solutionrelative:enities\\treenode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{010FA84D-0579-558D-4EBE-ADD542FBD2EE}|..\\tests\\AdvertisingPlatforms.Tests.csproj|c:\\users\\artem\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\advertisingplatforms\\tests\\advertisingplatformservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8F7EB7E0-E029-44BB-A3E1-1F1B8B6CD422}|AdvertisingPlatforms.csproj|c:\\users\\artem\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\advertisingplatforms\\src\\services\\advertisingplatformservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8F7EB7E0-E029-44BB-A3E1-1F1B8B6CD422}|AdvertisingPlatforms.csproj|solutionrelative:services\\advertisingplatformservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{010FA84D-0579-558D-4EBE-ADD542FBD2EE}|..\\tests\\AdvertisingPlatforms.Tests.csproj|c:\\users\\artem\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\advertisingplatforms\\tests\\advertisingplatformservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8F7EB7E0-E029-44BB-A3E1-1F1B8B6CD422}|AdvertisingPlatforms.csproj|c:\\users\\artem\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\advertisingplatforms\\src\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F7EB7E0-E029-44BB-A3E1-1F1B8B6CD422}|AdvertisingPlatforms.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,63 +30,41 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "TreeNode.cs",
-              "DocumentMoniker": "C:\\Users\\artem\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\AdvertisingPlatforms\\src\\Enities\\TreeNode.cs",
-              "RelativeDocumentMoniker": "Enities\\TreeNode.cs",
-              "ToolTip": "C:\\Users\\artem\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\AdvertisingPlatforms\\src\\Enities\\TreeNode.cs",
-              "RelativeToolTip": "Enities\\TreeNode.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-16T09:33:33.404Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "IAdvertisingPlatformService.cs",
-              "DocumentMoniker": "C:\\Users\\artem\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\AdvertisingPlatforms\\src\\Services\\IAdvertisingPlatformService.cs",
-              "RelativeDocumentMoniker": "Services\\IAdvertisingPlatformService.cs",
-              "ToolTip": "C:\\Users\\artem\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\AdvertisingPlatforms\\src\\Services\\IAdvertisingPlatformService.cs",
-              "RelativeToolTip": "Services\\IAdvertisingPlatformService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-16T09:33:07.687Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\artem\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\AdvertisingPlatforms\\src\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\artem\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\AdvertisingPlatforms\\src\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAAD8AAABHAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAswCwAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-16T08:16:32.42Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "AdvertisingPlatformService.cs",
               "DocumentMoniker": "C:\\Users\\artem\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\AdvertisingPlatforms\\src\\Services\\AdvertisingPlatformService.cs",
               "RelativeDocumentMoniker": "Services\\AdvertisingPlatformService.cs",
               "ToolTip": "C:\\Users\\artem\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\AdvertisingPlatforms\\src\\Services\\AdvertisingPlatformService.cs",
               "RelativeToolTip": "Services\\AdvertisingPlatformService.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAASwEIAAAA+AAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAEMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-15T18:38:22.983Z"
+              "WhenOpened": "2025-08-15T18:38:22.983Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "AdvertisingPlatformServiceTests.cs",
               "DocumentMoniker": "C:\\Users\\artem\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\AdvertisingPlatforms\\tests\\AdvertisingPlatformServiceTests.cs",
               "RelativeDocumentMoniker": "..\\tests\\AdvertisingPlatformServiceTests.cs",
               "ToolTip": "C:\\Users\\artem\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\AdvertisingPlatforms\\tests\\AdvertisingPlatformServiceTests.cs",
               "RelativeToolTip": "..\\tests\\AdvertisingPlatformServiceTests.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACgAAAAAAAAAAAApwDMAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-15T18:29:32.039Z"
+              "WhenOpened": "2025-08-15T18:29:32.039Z",
+              "EditorCaption": ""
             }
           ]
         }
